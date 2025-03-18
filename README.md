@@ -1,7 +1,7 @@
 # Power-BI-Dashboard
 A collection of interactive and insightful Power BI reports, turning raw data into meaningful visual stories.
 
-# Here's a breakdown of some common chart types and their uses in Power BI:
+** _Here's a breakdown of some common chart types and their uses in Power BI:_**
 
 _**Comparison:**_
 1. Bar and Column Charts: Ideal for comparing data across categories or time periods. 
