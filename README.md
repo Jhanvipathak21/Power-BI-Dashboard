@@ -1,23 +1,68 @@
-# Power-BI-Dashboard
-A collection of interactive and insightful Power BI reports, turning raw data into meaningful visual stories.
+**🌫️ Air Quality Report - Power BI Dashboard**
+This interactive Power BI dashboard provides meaningful insights into air quality indicators across various cities in India. It uses a combination of modern, visually appealing charts to transform raw air pollution data into actionable information for decision-making and awareness.
 
-** _Here's a breakdown of some common chart types and their uses in Power BI:_**
+**📊 Dashboard Overview**
+_KPIs Displayed:_
++ Average CO levels
++ Average NO levels
++ Average SO2 levels
++ Average PM2.5 levels
++ Last Refresh Date
+  
+**Visuals Included:**
++ Least Polluted Cities (bar chart)
++ Top 3 Polluted Cities (bar chart)
++ AQI Trend Over Time (line chart)
++ Geographical AQI overview (map visualization)
+  
 
-_**Comparison:**_
-1. Bar and Column Charts: Ideal for comparing data across categories or time periods. 
-2. Stacked Bar Chart: Shows the contribution of each category to a total, with bars stacked on top of each other.
+**🛠️ Features and Visual Storytelling
+Comparison Visuals:**
+✅ Bar and Column Charts:
+Compare average AQI across least polluted and most polluted cities.
+✅ Stacked Bar Charts:
+Can be used to show contributions of each pollutant to total AQI (future enhancement idea).
+Trends Over Time:
+✅ Line Charts:
+Shows AQI trend from 2015 to 2020.
+✅ Area Charts:
 
-#
-_**Trends Over Time:**_
-1. Line and Area Charts: Effective for visualizing trends and patterns over time.
-2. Area Chart: Similar to a line chart, but the area between the lines is filled, highlighting the magnitude of change.
-   #
-_**Proportions:**_
-1. Pie and Donut Charts:
-Good for displaying parts of a whole, showing the proportion of each category.
-2. Donut Chart:
-A variation of the pie chart with a hole in the center, allowing for better utilization of space.
-#
-_**Relationships:**_
-1. Scatter Charts: Useful for identifying correlations between two variables.
-2. Bubble Charts: Similar to scatter charts, but with bubble size representing a third variable. 
+Highlights magnitude of AQI changes (if added later).
+**Proportions:**
+✅ Pie / Donut Charts:
+Could display pollutant category distribution (optional future enhancement).
+✅ Donut Charts:
+Visual appeal while preserving space and clarity.
+Relationships:
+✅ Scatter Charts:
+Could explore correlations between CO, NO, SO2, and PM2.5.
+✅ Bubble Charts:
+Show AQI by city with bubble size for population (future enhancement).
+🗺️ Geospatial Analysis:
+Power BI map visuals to show area-wise AQI spread across India with color-coded markers.
+🧩 Tech Stack
+**Power BI Desktop**
++ Power Query
++ DAX
+  
+**🚀 Project Highlights**
++ Dynamic filtering by city
++ Consistent theme (pink color palette)
++ Responsive design for Power BI desktop
++ Clear separation of KPIs, trends, and comparisons
+  
+**📈 Business Problem Statement**
+The project aims to identify air quality patterns and trends across Indian cities to help stakeholders and policymakers focus on the most affected areas and improve public health planning.
+
+_**📸 Screenshots**_
++  ![image](https://github.com/user-attachments/assets/0ba54fd9-937e-478e-b14f-ddf622f3b110)
++  ![image](https://github.com/user-attachments/assets/606728b7-072b-4d0a-ba83-af72cf67e530)
++  ![image](https://github.com/user-attachments/assets/f0e9195a-607f-497e-bc14-8b9fb9be58c4)
++  ![image](https://github.com/user-attachments/assets/e2fca95c-49d6-465e-916b-14b44c47dab3)
+
+**📚 References**
+Power BI documentation
+https://learn.microsoft.com/en-us/power-bi/ 
+
+Air Quality Index information
+https://en.wikipedia.org/wiki/Air_quality_index
